@@ -51,6 +51,7 @@ body{
     height: 100%;
     padding-left: 10px;
     font-size: 1rem;
+    background: transparent;
 }
 
 .container form input[type= "search"]:focus{
