@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('Assets/Background\ Image.jpg');
+    background-position:center center;
+    overflow: hidden;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+}
+
+/* heading */
+
+h1{
+    text-align: center;
+    height: 10%;
+    font-size: 4rem;
+    margin-top: 20px;
+}
+
+/* Common classes */
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 150px;
+}
+
+/* Timer */
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.big-text{
+    font-size: 3rem;
+}
+
