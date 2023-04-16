@@ -1,0 +1,35 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: #F0F3F3;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50vh;
+    gap: 75px;
+    flex-wrap: wrap;
+}
+
+.section1>div {
+    width: 140px;
+    height: 80px;
+    background: #FC8A15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 2px;
+}
+
+.fa-solid:hover {
+    font-size: 25px;
+    cursor: pointer;
+}

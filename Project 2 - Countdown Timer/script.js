@@ -1,4 +1,4 @@
-let newYears = "Jan 1 2023";
+let newYears = "Jan 1 2024";
 
 let dayE1  = document.querySelector('.days').firstElementChild;
 let hourE1  = document.querySelector('.hour').firstElementChild;
